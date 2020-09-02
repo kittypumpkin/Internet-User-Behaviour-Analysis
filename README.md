@@ -7,11 +7,39 @@ numpy
 sys
 PyQt5
 
-Also, please unzip(unrar) the data.rar file to data.csv so the it is readable to the Nasa_Logs.py and Nasa_1995_proper.ipynb
+Also, please unzip(unrar) the data.rar file to data.csv so the it is readable to the Nasa_Logs.py and Nasa_Logs.py
 
-#### On carefully analyzing of the Weblog Dataset abnormal traffic was detected.
+##### Nasa_Logs.py and Weblog.py are the UI/UX of their respective Datasets.
 
-### Below are a detailed explanation for various factors taken into consideration and brief working of the WebLog Notebook
+
+#### Below are a detailed explanation for various factors taken into consideration and brief working of the Nasa 1995 Notebook.
+
+Missing parameters:
+
+    mac-address
+    The IP address of the source
+    The IP address of the destination
+
+Parameters not taken into account:
+
+    Time
+    Bytes
+
+Parameters taken into account:
+
+    Response
+    Url
+    Host
+    Method
+
+A detailed breakdown of the parameters taken into account can be seen in the python notebook attached.
+![alt text](https://github.com/CivilisedFalcon/Internet-User-Behaviour-Analysis/blob/master/Nasa%20Logs%20Screenshot/Screenshot%20(17).png)
+
+Conclusion: No significant abnormalities were found.
+
+### On carefully analyzing of the Weblog Dataset abnormal traffic was detected.
+
+#### Below are a detailed explanation for various factors taken into consideration and brief working of the WebLog Notebook
 
 Missing parameters:
 
@@ -41,6 +69,9 @@ Both abnormal and normal have been properly dissected and pictorially represente
 ![alt text](https://github.com/CivilisedFalcon/Internet-User-Behaviour-Analysis/blob/master/Weblog%20Screenshots/Screenshot%20(12).png)
 
 ![alt text](https://github.com/CivilisedFalcon/Internet-User-Behaviour-Analysis/blob/master/Weblog%20Screenshots/Screenshot%20(13).png)
+
 ![alt text](https://github.com/CivilisedFalcon/Internet-User-Behaviour-Analysis/blob/master/Weblog%20Screenshots/Screenshot%20(11).png)
+
+![alt text](https://github.com/CivilisedFalcon/Internet-User-Behaviour-Analysis/blob/master/Weblog%20Screenshots/Screenshot%20(14).png)
 
 ## Conclusion: Significant abnormalities were found. On carefully analysing the abnormal traffic, we can see that there were some tries to remotely execute OS commands
